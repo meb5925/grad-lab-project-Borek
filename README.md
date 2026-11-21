@@ -8,10 +8,13 @@ The analysis uses Zernike-derived defocus to calculate accommodation gain, the r
 
 ## Analysis Inputs and Tools
 - Output CSV files containing defocus measurements over time
-- MATLAB struc files containing trial conditions, stimulus frequencies, and commanded stimulus amplitudes
+- MATLAB struct files containing trial conditions, stimulus frequencies, and commanded stimulus amplitudes
 - MATLAB for data processing, analysis, and plotting
 
 ## Analysis Tasks:
 - [x] Sort data by trial type
 - [x] Extract relevant Zernike coefficients (defocus aberration) from output CSV files and plot as a function of time
 - [x] Calculate the FFT and plot gain as a function of stimulus frequency
+
+## Next steps
+- Upload completed project code to repo
